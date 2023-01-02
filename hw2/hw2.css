@@ -35,8 +35,13 @@ a{
 }
 .menu>.item{
 border-right:2px solid black ;
-width: 200px;
-margin-left:5px;
+width: 180px;
+margin:15px;
+text-align: center;
+}
+.menu>.item4{
+    width: 170px;
+margin:15px;
 text-align: center;
 }
 body{
@@ -111,11 +116,12 @@ footer{
 @media only screen and (max-width:500px) {
     /* For mobile phones: */
     .menu,.sidebar,.mainvideo{
-      width: 100%;
+      width:100%;
     }
     .container{
         flex-direction: column;
     }
+   
   }
 
 
