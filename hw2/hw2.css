@@ -121,6 +121,9 @@ footer{
     .container{
         flex-direction: column;
     }
+    .menu>.item{
+        border:none;
+    }
    
   }
 
